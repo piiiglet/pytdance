@@ -1,0 +1,24 @@
+
+#home-banner {
+  background: url('../images/dancers-photo.png');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+#booty {
+  background: url('../images/graffiti-photo.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#fire {
+  background: url('../images/fire-photo.png');
+  background-position: center;
+  background-size: cover;
+}
+#jump {
+  background: url('../images/jump-photo.png');
+  background-position: center;
+  background-size: cover;
+}
