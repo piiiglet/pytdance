@@ -10,17 +10,32 @@
 
 #about-banner-img {
   padding: 0;
+  overflow: hidden;
+  margin: 0 0 0 -120px;
 }
 
+#about-banner-img img {
+ height: 28.688rem;
+}
 
 .about-content {
   margin-bottom: 0;
 }
 .about-content h1 {
-  color: #8a54ff;
+  color: #794ae2;
+  font-size: 3.125rem;
+  font-weight: bold;
 }
 .about-content p {
-  color: #999999;
+  color: #666666;
+}
+
+.about-features {
+  text-align: center;
+}
+
+.feature {
+  margin: 4rem auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -30,8 +45,49 @@
     margin-top: 9rem;
     margin-bottom:9rem;
   }
+  #about-banner-img {
+    overflow: visible;
+  }
+  .about-features img {
+    height: 6.25rem;
+    width: auto;
+  }
+  .about-features h1 {
+    font-size: 1.75rem;
+  }
+  .about-features p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .feature {
+    margin: 1.875rem auto;
+  }
 }
 
+@media only screen and (min-width: 992px) {
+  .about-features img {
+    height: 9.375rem;
+    margin-top: 8rem;
+  }
+  .about-features h1 {
+    font-size: 2.25rem;
+  }
+  .about-features p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #666666;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+  }
+  .about-content h1 {
+    margin-bottom: 4rem;
+  }
+  #about-banner-img img {
+   height: auto;
+  }
+}
 #map {
   background: url('../images/map.jpg');
   background-position: center;
