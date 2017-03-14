@@ -1,0 +1,40 @@
+#classes-banner {
+  padding-bottom: 0;
+  border-bottom: 10px solid #8a54ff;
+  background: #ffffff;
+}
+#classes-banner h1, #about-banner p {
+  text-align: center;
+}
+
+#classes-banner-img {
+  padding: 0;
+}
+
+.classes-content {
+  margin-bottom: 0;
+}
+.classes-content h1 {
+  color: #8a54ff;
+}
+.classes-content p {
+  color: #999999;
+}
+
+html, body {
+  color: #000000;
+}
+
+h1 {
+  color: #8a54ff;
+}
+
+
+.course p:nth-child(2n+2){
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.course p:last-child {
+  font-weight: lighter;
+  font-size: 85%;
+}

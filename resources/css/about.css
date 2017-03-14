@@ -1,0 +1,52 @@
+
+#about-banner {
+  padding-bottom: 0;
+  border-bottom: 10px solid #8a54ff;
+  background: #ffffff;
+}
+#about-banner h1, #about-banner p {
+  text-align: center;
+}
+
+#about-banner-img {
+  padding: 0;
+}
+
+
+.about-content {
+  margin-bottom: 0;
+}
+.about-content h1 {
+  color: #8a54ff;
+}
+.about-content p {
+  color: #999999;
+}
+
+@media only screen and (min-width: 768px) {
+  .jumbo-content {
+    margin-right: 0;
+    width: 45rem;
+    margin-top: 9rem;
+    margin-bottom:9rem;
+  }
+}
+
+#map {
+  background: url('../images/map.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 0;
+  height: 31.25rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blueish-purple-container {
+  width: 100%;
+  height: auto;
+}
+
+.container-right {
+  margin-right: 0;
+}
