@@ -17,6 +17,19 @@
  height: 28.688rem;
 }
 
+@media only screen and (min-width: 400px) {
+  #classes-banner-img {
+    margin: 0 0 0 -45px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #classes-banner-img {
+    margin: 0 auto;
+    padding: initial;
+  }
+}
+
 .classes-content {
   margin-bottom: 0;
   text-align: center;

@@ -66,7 +66,7 @@ header .container-fluid {
   max-height: 50px;
 }
 .navbar-brand {
-  padding-top: 5px;
+  padding: 5px;
 }
 
 .navbar-header::after {
@@ -90,13 +90,25 @@ header .nav>li>a {
 header .nav>li:last-child>a {
   padding-right: 0;
 }
+#pyt-logo-mobile {
+  display: inline;
+}
+#pyt-logo-desktop {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
   .navbar-fixed-top {
     height: 3.875rem;
   }
-  .navbar-brand {
-    padding-top: 8px;
+  navbar-brand {
+    padding: 15px 15px;
+  }
+  #pyt-logo-desktop {
+    display: inline;
+  }
+  #pyt-logo-mobile {
+    display: none;
   }
   .navbar-nav {
     margin-top: 20px;
@@ -108,6 +120,15 @@ header .nav>li:last-child>a {
 @media only screen and (max-width: 550px) {
   .navbar-nav a {
     font-size: .75rem;
+  }
+  .nav>li>a {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav>li>a {
+    padding: 5px;
   }
 }
 

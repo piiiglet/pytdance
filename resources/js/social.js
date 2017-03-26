@@ -1,12 +1,6 @@
 var socialIcons = document.getElementById("social");
 var items = socialIcons.getElementsByTagName("i");
-var logo = document.getElementById('pyt-logo');
-  window.onresize = window.onload = function () {
-    if(window.innerWidth >= 768) {
-      logo.src = './resources/images/logo-color.png';
-    } else {
-      logo.src = './resources/images/logo-mobile.png';
-    }
+window.onresize = window.onload = function () {
     if (window.innerWidth >= 770){
       for (var i = 0; i < items.length; i++)  {
         if(items[i].classList.contains('fa-1x')) {
