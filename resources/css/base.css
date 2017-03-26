@@ -306,6 +306,7 @@ footer .navbar-right {
 }
 footer .navbar-brand {
   display: none;
+  padding-left: 3.4375rem;
 }
 
 footer .navbar-right li:first-child:after {
